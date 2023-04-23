@@ -1,0 +1,4 @@
+**Get DB IP Address for installation:** 
+sudo docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' userspice_project-db
+
+
